@@ -4,12 +4,9 @@
    <title> Hello World!</title>
 
       <!-- Bootstrap -->
-      <link rel="stylesheet" href="assets/css/bootstrap.css"/>
-      <link rel="stylesheet" href="assets/css/font-awesome.css"/>
-      <link href='assets/img/icon.png' rel='shortcut icon'>
-      <!-- Java Script -->
-      <script type="text/javascript" src="assets/js/jquery-2.1.4.js"></script>
-      <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
       <style>
       body{
