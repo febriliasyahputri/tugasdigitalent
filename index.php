@@ -1,3 +1,19 @@
+<?php
+include 'koneksi.php';
+
+ $sql2 = "SELECT count(no_agenda) from surat_masuk_fbrl";
+  $query2 = mysqli_query($conn, $sql2);
+  $hasil2 = mysqli_fetch_array($query2);
+
+  $sql3 = "SELECT count(no_agenda) from surat_keluar_fbrl";
+  $query3 = mysqli_query($conn, $sql3);
+  $hasil3 = mysqli_fetch_array($query3);  
+
+   $sql4 = "SELECT count(no_disposisi) from q_disposisi";
+   $query4 = mysqli_query($conn, $sql4);
+   $hasil4 = mysqli_fetch_array($query4);  
+
+?>
 <!DOCTYPE html>
 <html>
  <head>
