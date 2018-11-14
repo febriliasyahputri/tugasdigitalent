@@ -139,7 +139,7 @@
          <br>
         <div class="card" style="background-color: #b54460; height: 52px;">
           <div class="container">
-            <p class="card-p"></p> 
+            <p class="card-p"><?php echo $hasil4[0]; ?></p> 
           </div>
         </div>
         <br>
@@ -151,7 +151,7 @@
         <br>
         <div class="card" style="background-color: #79b4c1; height: 52px;">
           <div class="container">
-            <p class="card-p"></p> 
+            <p class="card-p"><?php echo $hasil4[0]; ?></p> 
           </div>
         </div>
         <br>
